@@ -1,0 +1,21 @@
+env/
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+*.log
+
+# ML artifacts (optional – keep if you want)
+ml/artifacts/*.joblib
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
